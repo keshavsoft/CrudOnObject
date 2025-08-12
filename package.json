@@ -1,0 +1,56 @@
+{
+  "name": "CrudOnObject",
+  "displayName": "CrudOnObject",
+  "publisher": "KeshavSoft",
+  "description": "KeshavSoft Extension to enhance the development of web applications",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keshavsoft/CrudOnObject.git"
+  },
+  "license": "license.txt",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.Path",
+        "title": "Get the current Extension Path"
+      },
+      {
+        "command": "ObjectCrud.OnlyBackEnd",
+        "title": "ObjectCrud OnlyBackEnd"
+      },
+      {
+        "command": "ObjectCrud.FrontAndBack",
+        "title": "ObjectCrud FrontAndBack"
+      }
+    ],
+    "menus": {
+      "explorer/context": []
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}
