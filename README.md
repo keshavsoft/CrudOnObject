@@ -41,6 +41,12 @@ write end points in nodejs
 
 - ObjectCrud just now started...
 
+### 0.2.1
+
+- Async.FrontAndBack working good with read.asis only with async
+
+0.2.1
+
 ## License
 
 MIT

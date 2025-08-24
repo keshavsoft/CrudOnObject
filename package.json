@@ -3,7 +3,7 @@
   "displayName": "CrudOnObject",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft Extension to enhance the development of web applications",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/keshavsoft/CrudOnObject.git"
@@ -30,6 +30,10 @@
       {
         "command": "ObjectCrud.FrontAndBack",
         "title": "ObjectCrud FrontAndBack"
+      },
+      {
+        "command": "Async.FrontAndBack",
+        "title": "Async FrontAndBack"
       }
     ],
     "menus": {
